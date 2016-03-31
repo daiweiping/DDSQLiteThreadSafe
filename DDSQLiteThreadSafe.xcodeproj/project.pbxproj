@@ -15,6 +15,7 @@
 		3A165BFC1CACFCD200798C0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A165BFA1CACFCD200798C0D /* LaunchScreen.storyboard */; };
 		3A165C071CACFCD200798C0D /* DDSQLiteThreadSafeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A165C061CACFCD200798C0D /* DDSQLiteThreadSafeTests.m */; };
 		3A165C121CACFCD200798C0D /* DDSQLiteThreadSafeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A165C111CACFCD200798C0D /* DDSQLiteThreadSafeUITests.m */; };
+		3A165C201CACFDAE00798C0D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A165C1F1CACFDAE00798C0D /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3A165C0D1CACFCD200798C0D /* DDSQLiteThreadSafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDSQLiteThreadSafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A165C111CACFCD200798C0D /* DDSQLiteThreadSafeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDSQLiteThreadSafeUITests.m; sourceTree = "<group>"; };
 		3A165C131CACFCD200798C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A165C1F1CACFDAE00798C0D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A165C201CACFDAE00798C0D /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		3A165BE01CACFCD200798C0D = {
 			isa = PBXGroup;
 			children = (
+				3A165C1F1CACFDAE00798C0D /* libsqlite3.tbd */,
 				3A165BEB1CACFCD200798C0D /* DDSQLiteThreadSafe */,
 				3A165C051CACFCD200798C0D /* DDSQLiteThreadSafeTests */,
 				3A165C101CACFCD200798C0D /* DDSQLiteThreadSafeUITests */,
